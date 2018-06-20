@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开门效果</title>
+
+    <script src="jquery-3.2.1.js"></script>
+
+    <style>
+
+        html,body{
+
+            height:100%;
+        }
+
+        #door-left, #door-right{
+
+            margin:0;
+            padding: 0;
+
+            width:50%;
+            height:100%;
+
+            background-color: #663333;
+        }
+        #door-left{
+
+            float:left;
+        }
+        #door-right{
+
+            float:right;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="door-left"></div><!--左门-->
+
+    <div id="door-right"></div><!--右门-->
+
+
+    <script>
+
+        $(document).ready(function(){    //文档加载完成后立刻执行
+
+            $("#door-left").animate({width:"toggle"}, 2000);    //左门打开
+
+            $("#door-right").animate({width:"toggle"}, 2000);    //右门跟左门同时打开
+        });
+    </script>
+
+</body>
+</html>

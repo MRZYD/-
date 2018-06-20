@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+      #dialog{
+        display: none;
+      }
+  </style>
+</head>
+<body>
+  <div id="opener">
+    <span>one</span>
+    <div id="dialog" title="基本的对话框">
+      <p>这是一个默认的对话框，用于显示信息。对话框窗口可以移动，调整尺寸，默认可通过 'x' 图标关闭。</p>
+      <button id="dialog-button">X</button>
+    </div>
+  </div>
+
+</body>
+<script src="jquery-3.2.1.js"></script>
+<script>
+  $(function() {
+    // $( "#dialog" ).dialog({
+    //   autoOpen: false,
+    //   show: {
+    //     effect: "blind",
+    //     duration: 1000
+    //   },
+    //   hide: {
+    //     effect: "explode",
+    //     duration: 1000
+    //   }
+    // });
+
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).css("display", "block");
+    });
+    $( '#dialog-button').click(function() {
+      $( '#dialog' ).css("display", "none");
+    })
+    // $("#dialog button").dialog(
+    //             {
+    //                 modal:true,
+    //                 autoOpen:false,
+    //                 width: 800,
+    //                 maxHeight: 400,
+    //                 buttons:{
+    //                     'Ok':function () {
+    //
+    //                         jQuery(this).dialog('close')
+    //                     },
+    //                     'Cancel':function () {
+    //                         jQuery(this).dialog('close')
+    //                     }
+    //                 },
+    //                 position:["center",100]
+    //             }
+    //     );
+  });
+
+
+
+  </script>
+</html>

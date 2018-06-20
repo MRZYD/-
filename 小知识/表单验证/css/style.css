@@ -1,0 +1,32 @@
+
+.form-application{padding:70px 0;}
+.form-application h2{width:100%;font-size:28px;color:#333;margin-bottom:35px;text-align:center;font-weight:100;}
+.form-application ul{width:100%;}
+.form-application ul li{width:48%;margin-right:4%;position:relative;float:left;padding:10px 0;}
+.form-application ul li:nth-child(2n){margin-right:0;}
+.form-application ul li span{float:left;display:inline-block;width:100px;height:50px;line-height:50px;font-size:16px;}
+.form-application ul li input{float:left;width:450px;height:50px;display:inline-block;padding:0 10px;font-size:16px;border-radius:5px;border:1px solid #a0a0a0;outline:none;}
+.form-application ul li i{position:absolute;top:10px;right:0;color:red;}
+.form-application button{display:block;width:322px;height:82px;text-align:center;line-height:82px;margin:0 auto;margin-top:50px;background:#539b35;border-radius:10px;font-size:30px;color:#fff;border:none;outline:none;cursor:pointer;}
+/* .noapply-growing{width:216px;border-radius:5px;font-size:16px;margin-right:15px;float:left;}
+.pref_noapply-growing{width:100%;font-size:16px;padding:0 10px;height:50px;border:1px solid #a0a0a0;border-radius:5px;}
+.pref_noapply-growing:active{outline:none;} */
+.form-control {width:25%;margin-right:0.5%;height:50px;padding:0 10px;font-size:16px;border-radius:5px;border:1px solid #a0a0a0;outline:none;}
+select {border: solid 1px #000;appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;}
+.form-application ul li.radio-span span{display:block;width:120px;}
+.form-application ul li.radio-span{font-size:16px;}
+.form-application ul li.radio-span input{display:inline-block;width:20px;height:20px;margin-right:10px;}
+.radio-span-input{float:left;padding:15px 30px;}
+
+
+._citys {background:#fff;width: 450px; display: inline-block; border: 2px solid #eee; padding: 5px; position: relative; }
+._citys span { color: #56b4f8; height: 15px; width: 15px; line-height: 11px; text-align: center; border-radius: 3px; position: absolute; right: 10px; top: 10px; border: 1px solid #56b4f8; cursor: pointer; }
+._citys0 { width: 100%; height: 34px; display: inline-block; border-bottom: 2px solid #56b4f8; padding: 0; margin: 0; }
+._citys0 li { display: inline-block; line-height: 34px; font-size: 15px; color: #888; width: 80px; text-align: center; cursor: pointer; }
+.citySel { background-color: #56b4f8; color: #fff !important; }
+._citys1 { width: 100%; display: inline-block; padding: 10px 0; }
+._citys1 a { width: 83px; height: 35px; display: inline-block; background-color: #f5f5f5; color: #666; margin-left: 6px; margin-top: 3px; line-height: 35px; text-align: center; cursor: pointer; font-size: 13px; overflow: hidden; }
+._citys1 a:hover { color: #fff; background-color: #56b4f8; }
+.AreaS { background-color: #56b4f8 !important; color: #fff !important; }
+
+textarea{width:450px;height:150px;padding:10px;line-height:25px;letter-spacing:1px;font-family:"微软雅黑";font-size: 16px;border-radius: 5px;border: 1px solid #a0a0a0;outline: none;}
